@@ -81,7 +81,7 @@ const USER_CONFIG = {
 
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
 
   /** 每日一言 */
   // 每日一言的内容类型
@@ -96,7 +96,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oqCLc6QurH3v_va0SV8yp53A0I8g',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'VGtJGXmyRdW0l1Ry6TwNEb4Evyw746y_a6O1dIheGi8',
+      useTemplateId: '6OZOCyW8mLkWfwSeqKQvZX5Q7-nntN0bipMPUoD_8ck',
       province: '江苏',
       // 所在城市或县区
       city: '无锡',
