@@ -640,7 +640,7 @@ export const buildTianApi = async (apiType, params = null) => {
     return RUN_TIME_STORAGE[`${apiType}_${JSON.stringify(params)}_${count}`]
   }
 
-  const url = `https://api.tianapi.com/${apiType}/index`
+  const url = `https://apis.tianapi.com/weibohot/index`
   const res = await axios.get(url, {
     params: { key: config.TIAN_API.key, ...params },
   }).catch((err) => err)
