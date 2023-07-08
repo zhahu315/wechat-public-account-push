@@ -4,15 +4,18 @@
 温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}} 
 湿度：{{shidu.DATA}}
 空气质量：{{aqi.DATA}}
-风向：{{wind_direction.DATA}}-{{wind_scale.DATA}} 
 温馨提示：{{notice.DATA}}
+---
 假日提醒：
 🏖️{{holidaytts.DATA}}
-今日财运：
-⭐{{wealth_horoscope.DATA}} 
+⭐{{wealth_horoscope.DATA}}
+❤️{{love_horoscope.DATA}}
+🫁{{healthy_horoscope.DATA}}
+📚{{career_horoscope.DATA}}
 值得纪念：今天是我们破处的第{{pochu_day.DATA}}天 
 🎂{{wx_birthday_0.DATA}} 
 🎂{{wx_birthday_1.DATA}} 
+---
 夸夸老婆：
 💌{{earthy_love_words.DATA}} 
 今日朋友圈文案：
