@@ -6,6 +6,7 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  USE_PASSAGE: 'push-plus',
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx4254deb69a9ce1e4',
@@ -94,9 +95,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '汤小圆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oqCLc6QurH3v_va0SV8yp53A0I8g',
+      id: 'ae4ff039e8b646dc98bea9f03dda3ccb',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'paLRoQ_4QEd4UfMpFKr0vRVn3emc8k99PEA-TckmbQI',
+      useTemplateId: '0003',
       province: '江苏',
       // 所在城市或县区
       city: '无锡',
@@ -128,13 +129,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'PzkqmMZJQNBsuCSsLU5M8_65FcuEm7ifQFyYnlgWrTw',
+  CALLBACK_TEMPLATE_ID: '0004',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oqCLc6QurH3v_va0SV8yp53A0I8g',
+      id: 'ae4ff039e8b646dc98bea9f03dda3ccb',
     }
   ],
 
