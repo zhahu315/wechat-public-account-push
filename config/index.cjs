@@ -73,7 +73,7 @@ const USER_CONFIG = {
     weather: 0,
 
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 10,
+    networkHot: 5,
 
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'title',
@@ -96,7 +96,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oqCLc6QurH3v_va0SV8yp53A0I8g',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TmgXitOtLXDULrxh670KIRCQlfwRDVDxzZoVDZzyv3s',
+      useTemplateId: 'hMRssGf3DWRNSidNkkke7APbmzhjVYlKYvMZM_daz8I',
       province: '江苏',
       // 所在城市或县区
       city: '无锡',
