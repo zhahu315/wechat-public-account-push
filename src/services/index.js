@@ -620,7 +620,7 @@ export const buildTianApi = async (apiType, params = null) => {
   const typeMap = {
     zaoan: 'morningGreeting',
     wanan: 'eveningGreeting',
-    networkhot: 'weibohot',
+    networkhot: 'networkHot',
     tianqi: 'weather',
   }
   if (!(config.TIAN_API && config.TIAN_API[typeMap[apiType]])) {
@@ -640,7 +640,7 @@ export const buildTianApi = async (apiType, params = null) => {
     return RUN_TIME_STORAGE[`${apiType}_${JSON.stringify(params)}_${count}`]
   }
 
-  const url = `https://apis.tianapi.com/weibohot/index`
+  const url = `http://api.tianapi.com/${apiType}/index`
   const res = await axios.get(url, {
     params: { key: config.TIAN_API.key, ...params },
   }).catch((err) => err)
