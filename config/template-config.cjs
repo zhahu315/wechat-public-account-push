@@ -64,6 +64,7 @@ const TEMPLATE_CONFIG = [
     空气质量：{{aqi.DATA}}\n
     温馨提示：{{notice.DATA}}\n
     假日提醒: 🏖️{{holidaytts.DATA}}\n
+    -------------------------\n
     今日运势：{{comprehensive_horoscope.DATA}}\n
     ⭐{{wealth_horoscope.DATA}}\n
     ❤️{{love_horoscope.DATA}}\n
@@ -77,8 +78,9 @@ const TEMPLATE_CONFIG = [
     💌{{earthy_love_words.DATA}} \n
     今日朋友圈文案：\n
     😋{{moment_copyrighting.DATA}} \n
-    和{{poetry_author.DATA}}学诗词：{{poetry_content.DATA}}\n\n
-    今日热搜:\n
+    和{{poetry_author.DATA}}学诗词：{{poetry_content.DATA}}\n
+    -------------------------\n
+    今日热搜:
     🔥{{tian_api_network_hot.DATA}}
     `
   },
