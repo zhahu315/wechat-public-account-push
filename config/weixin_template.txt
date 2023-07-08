@@ -8,11 +8,13 @@
 温馨提示：{{notice.DATA}}
 假日提醒：
 🏖️{{holidaytts.DATA}}
-今日运势：
-⭐{{comprehensive_horoscope.DATA}} 
+今日财运：
+⭐{{wealth_horoscope.DATA}} 
 值得纪念：今天是我们破处的第{{pochu_day.DATA}}天 
-🎂{{birthday_message.DATA}} 
-夸夸老婆：{{earthy_love_words.DATA}} 
+🎂{{wx_birthday_0.DATA}} 
+🎂{{wx_birthday_1.DATA}} 
+夸夸老婆：
+💌{{earthy_love_words.DATA}} 
 今日朋友圈文案：
 😋{{moment_copyrighting.DATA}} 
 和{{poetry_author.DATA}}学诗词：{{poetry_content.DATA}}
