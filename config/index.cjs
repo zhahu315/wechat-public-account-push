@@ -125,6 +125,40 @@ const USER_CONFIG = {
         // { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+    {
+      // 想要发送的人的名字
+      name: '汤小圆',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'ae4ff039e8b646dc98bea9f03dda3ccb',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0003',
+      province: '江苏',
+      // 所在城市或县区
+      city: '无锡',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '02-20',
+      horoscopeDateType: '今日',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '小张', year: '1998', date: '02-17',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '汤小圆', year: '1998', date: '02-20',
+        },
+        // {
+        //   type: '生日', name: '小张', year: '1998', date: '03-15',
+        // },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'pochu_day', date: '2022-01-23' },
+        // 结婚纪念日
+        // { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+    },
   ],
 
 
