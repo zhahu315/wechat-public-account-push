@@ -1,20 +1,20 @@
-{{date.DATA}}
+🗓️{{date.DATA}}
 城市：{{city.DATA}}
-天气：{{weather.DATA}} 
-温度: {{min_temperature.DATA}}--{{max_temperature.DATA}} 
+天气☁️：{{weather.DATA}} 
+温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}} 
 湿度：{{shidu.DATA}}
 空气质量：{{aqi.DATA}}
 风向：{{wind_direction.DATA}}-{{wind_scale.DATA}} 
 温馨提示：{{notice.DATA}}
 假日提醒：
- {{holidaytts.DATA}}
-星座运势：
- {{comprehensive_horoscope.DATA}} 
+🏖️{{holidaytts.DATA}}
+今日运势：
+⭐{{comprehensive_horoscope.DATA}} 
 值得纪念：今天是我们破处的第{{pochu_day.DATA}}天 
- {{birthday_message.DATA}} 
+🎂{{birthday_message.DATA}} 
 夸夸老婆：{{earthy_love_words.DATA}} 
 今日朋友圈文案：
- {{moment_copyrighting.DATA}} 
+😋{{moment_copyrighting.DATA}} 
 和{{poetry_author.DATA}}学诗词：{{poetry_content.DATA}}
 近日微博热搜:
- {{tian_api_network_hot.DATA}}
+🔥{{tian_api_network_hot.DATA}}
