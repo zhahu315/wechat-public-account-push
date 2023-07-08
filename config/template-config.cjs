@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '早上好,汤小o',
     desc: `
       **{{date.DATA}}**
       
@@ -54,28 +54,31 @@ const TEMPLATE_CONFIG = [
   },
   {
     id: '0003',
-    title: '亲爱的, 早上好',
+    title: '早上好,汤小o',
     desc: `
-    🗓️{{date.DATA}}
-    城市：{{city.DATA}}
-    天气☁️：{{weather.DATA}} 
-    温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}} 
-    湿度：{{shidu.DATA}}
-    空气质量：{{aqi.DATA}}
-    温馨提示：{{notice.DATA}}
-    假日提醒：
-    🏖️{{holidaytts.DATA}}
-    ⭐{{wealth_horoscope.DATA}}
-    ❤️{{love_horoscope.DATA}}
-    值得纪念：今天是我们破处的第{{pochu_day.DATA}}天 
-    🎂{{wx_birthday_0.DATA}} 
-    🎂{{wx_birthday_1.DATA}} 
-    夸夸老婆：
-    💌{{earthy_love_words.DATA}} 
-    今日朋友圈文案：
-    😋{{moment_copyrighting.DATA}} 
-    和{{poetry_author.DATA}}学诗词：{{poetry_content.DATA}}
-    今日热搜:
+    🗓️{{date.DATA}}\n
+    城市：{{city.DATA}}\n
+    天气☁️：{{weather.DATA}} \n
+    温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}} \n
+    湿度：{{shidu.DATA}}\n
+    空气质量：{{aqi.DATA}}\n
+    温馨提示：{{notice.DATA}}\n
+    假日提醒: 🏖️{{holidaytts.DATA}}\n
+    今日运势：{{comprehensive_horoscope.DATA}}\n
+    ⭐{{wealth_horoscope.DATA}}\n
+    ❤️{{love_horoscope.DATA}}\n
+    🫁{{healthy_horoscope.DATA}}\n
+    📚{{career_horoscope.DATA}}\n
+    -------------------------\n
+    值得纪念：今天是我们破处的第{{pochu_day.DATA}}天 \n
+    🎂{{wx_birthday_0.DATA}} \n
+    🎂{{wx_birthday_1.DATA}} \n
+    夸夸老婆：\n
+    💌{{earthy_love_words.DATA}} \n
+    今日朋友圈文案：\n
+    😋{{moment_copyrighting.DATA}} \n
+    和{{poetry_author.DATA}}学诗词：{{poetry_content.DATA}}\n\n
+    今日热搜:\n
     🔥{{tian_api_network_hot.DATA}}
     `
   },

@@ -74,7 +74,7 @@ const USER_CONFIG = {
     weather: 0,
 
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 5,
+    networkHot: 10,
 
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'title',
@@ -82,7 +82,7 @@ const USER_CONFIG = {
 
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
 
   /** 每日一言 */
   // 每日一言的内容类型
