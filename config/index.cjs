@@ -31,7 +31,7 @@ const USER_CONFIG = {
     CIBA: false,
 
     // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    oneTalk: true,
+    oneTalk: false,
 
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     earthyLoveWords: true,
@@ -96,9 +96,13 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oqCLc6QurH3v_va0SV8yp53A0I8g',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'bYpV3Uipxq3eX5YTEgUw_6IPg4kXricWWB0A9rEtH6Q',
+      useTemplateId: 'sLFHm2ELODqgHaCMABu7b0k3tNxjK6Z-hNQlISjJ2M0',
+      province: '江苏',
+      // 所在城市或县区
+      city: '无锡',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '02-20',
+      horoscopeDateType: '今日',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {

@@ -2,12 +2,13 @@
 城市：{{city.DATA}}
 天气：{{weather.DATA}} 
 温度: {{min_temperature.DATA}}--{{max_temperature.DATA}} 
-湿度：{{aqi.DATA}}
-空气质量：{{pm25.DATA}}
-风向：{{wind_direction.DATA}} 
-风级：{{wind_scale.DATA}} 
+湿度：{{shidu.DATA}}
+空气质量：{{aqi.DATA}}
+风向：{{wind_direction.DATA}}-{{wind_scale.DATA}} 
 温馨提示：{{notice.DATA}}
+假日提醒：
 {{holidaytts.DATA}}
+星座运势：
 {{comprehensive_horoscope.DATA}} 
 值得纪念：今天是我们破处的第{{pochu_day.DATA}}天 {{birthday_message.DATA}} 
 夸夸老婆：{{earthy_love_words.DATA}} 
